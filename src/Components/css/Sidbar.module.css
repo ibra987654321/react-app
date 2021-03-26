@@ -1,0 +1,123 @@
+.back{
+    margin: 0 80px;
+    display: flex;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-right: 0.2px solid #ebebeb;
+    padding-right: 20px;
+
+}
+.reviews a{
+    text-decoration: none;
+    color: #293651;
+    width: 100%;
+}
+.message{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+.add__message{
+    width: 100%;
+}
+.mess__text{
+    border: 0.5px solid #ebebeb;
+    border-radius: 10px;
+    padding: 10px;
+}
+.add__message input{
+    border: 0.5px solid #ebebeb;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 25px;
+    width: 100%;
+    font-size: 10px;
+    padding: 0;
+}
+.add__message input:focus{
+    outline: none;
+    background-color: #f5f5f5;
+    transition: 0.3s ease-in-out;
+}
+.add__message button{
+    border: none;
+    background-color: #a8a8a8;
+    height: 25px;
+    width: 100%;
+    color: #fff;
+}
+.add__message button:focus{
+    outline: none;
+}
+.reviews__mess{
+    width: 100%;
+    border-right:0.5px solid #e0e0e0;
+}
+.mess__header{
+    border-bottom: 0.5px solid #e0e0e0;
+    width: 100%;
+}
+.prof__img{
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    margin: 0 6px 0 15px;
+}
+.mess__profil{
+    display: flex;
+    align-items: center;
+    
+}
+.icon__profil{
+    border: 0.5px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.mess__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.enter__mess{
+    padding: 20px;
+}
+.enter__mess form{
+    display: flex;
+}
+.enter__mess textarea{
+    width: 100%;
+    height: 30px;
+    padding: 0 15px;
+    border: 0.5px solid #e0e0e0;
+    border-radius: 30px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+.enter__mess textarea:focus{
+    background-color: #f5f5f5;
+    outline: none;
+    transition: 0.3s;
+}
+.enter__mess button{
+    border: 0.5px solid #e0e0e0;
+    border-radius: 50px;
+    margin-left: 7px;
+}
+.enter__mess button:focus{
+    outline: none;
+    transition: 0.3s;
+}
+.enter__mess button:hover{
+    background-color: aliceblue;
+    transition: 0.3s;
+}

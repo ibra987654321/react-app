@@ -1,0 +1,19 @@
+.wrapper{
+width: 100%;
+height: 100%;
+}
+.header{
+  grid-area: head;
+}
+.navbar{
+  grid-area: nav;
+  position: fixed;
+  z-index: 50;
+  margin-top: 10em;
+}
+.content{
+  grid-area: cont;
+}
+.about{
+  grid-area: abv;
+}

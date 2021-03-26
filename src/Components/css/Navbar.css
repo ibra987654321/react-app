@@ -1,0 +1,23 @@
+.navbar{
+    background-color: transparent;
+    box-shadow: #000 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.items{
+    width: 38px;
+    height: 178px;
+    margin-left: 20px;
+    border: 1px solid rgba(0, 167, 142, 0.21);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+}
+.item img{
+    width: 28px;
+}
